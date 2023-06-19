@@ -22,4 +22,13 @@ class Game:
 
     def handle_input(self, key):
         if key == curses.KEY_UP and self.cursor.position[1] > 0:
-            pass
+            self.cursor.position = (self.cursor.position[0], self.cursor.position[1] - 1)
+        elif key == curses.KEY_DOWN and self.cursor.position[1] < len(self.squares) - 1:
+            self.cursor.position = (self.cursor.position[0], self.cursor.position[1] + 1)
+        elif key == curses.KEY_LEFT and self.cursor.position[0] > 0:
+            self.cursor.position = (self.cursor.position[0] - 1, self.cursor.position[1])
+        elif key == curses.KEY_RIGHT and self.cursor.position[0] < len(self.squares[0]) - 1:
+            self.cursor.position = (self.cursor.position[0] + 1, self.cursor.position[1])
+        elif key == ord("q"):
+            return False
+
