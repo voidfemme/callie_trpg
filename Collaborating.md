@@ -24,10 +24,10 @@
 5. **Pull the Latest Code**
 
    ```bash
-   git pull origin main
+   git pull origin master
    ```
 
-   > Replace `main` with your default branch name if it's different.
+   > Replace `master` with your default branch name if it's different.
 
 6. **Resolve Conflicts**
 
@@ -64,7 +64,7 @@
 
 8. **Create a Pull Request**
 
-   > Go to the repository on GitHub and create a pull request. This is a request to merge your changes into the `main` branch.
+   > Go to the repository on GitHub and create a pull request. This is a request to merge your changes into the `master` branch.
 
 9. **Review Changes**
 
@@ -72,7 +72,7 @@
 
 10. **Merge the Pull Request**
 
-    > Once you're satisfied with the changes, you can merge the pull request. This will integrate your changes into the `main` branch.
+    > Once you're satisfied with the changes, you can merge the pull request. This will integrate your changes into the `master` branch.
 
 11. **Delete the Branch**
 
@@ -81,7 +81,7 @@
 12. **Pull the Changes**
 
     ```bash
-    git pull origin main
+    git pull origin master
     ```
 
 13. **Start Again**
@@ -125,7 +125,7 @@
 
 10. **Merge the Pull Request**
 
-    > Once you're satisfied with the changes, you can merge the pull request on GitHub. This will integrate your changes into the `main` branch.
+    > Once you're satisfied with the changes, you can merge the pull request on GitHub. This will integrate your changes into the `master` branch.
 
 11. **Delete the Branch**
 
