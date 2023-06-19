@@ -31,7 +31,30 @@
 
 6. **Resolve Conflicts**
 
-   > If there are any conflicts between your changes and changes that have been pushed since you last pulled, you'll need to resolve them manually. Git will indicate where the conflicts are in your files.
+   > If there are conflicts between your changes and the changes that have been pushed since you last pulled, Git will indicate where these conflicts are in your files.
+
+   > Conflicts are marked in your files like this:
+
+   ```bash
+   <<<<<<< HEAD
+   Your changes
+   =======
+   Changes on the remote repository
+   >>>>>>> commit_id
+   ```
+
+   > Everything between `<<<<<<< HEAD` and `=======` is your changes, and everything between `=======` and `>>>>>>> commit_id` are the changes from the remote repository.
+
+   > To resolve the conflicts, you need to manually edit the file to keep the changes you want, and remove the conflict markers. Once you have resolved all conflicts, you can continue with the commit.
+
+   > After you've resolved all the conflicts:
+
+   ```bash
+   git add .
+   git commit -m "Resolved merge conflicts"
+   ```
+
+   > Note: In some cases, it might be easier to use a merge tool to visualize and resolve conflicts. Many text editors and IDEs have built-in tools for this, or you can use a standalone tool.
 
 7. **Push Your Branch**
 
