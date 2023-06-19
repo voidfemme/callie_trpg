@@ -86,3 +86,54 @@
 
 13. **Start Again**
     > For the next set of changes, go back to step 2. Always ensure you're working with the latest version of the code before creating a new branch.
+
+## GitHub Desktop Instructions
+
+1. **Clone the Repository**
+
+   > Click `File -> Clone repository` from the menu, select the repository from the list and click `Clone`.
+
+2. **Create a Branch**
+
+   > Click `Branch -> New branch` from the menu and enter a branch name, then click `Create branch`.
+
+3. **Make Changes**
+
+4. **Commit Changes**
+
+   > Enter your commit message in the bottom left field and click `Commit to <branch-name>`.
+
+5. **Pull the Latest Code**
+
+   > Click `Repository -> Pull` from the menu.
+
+6. **Resolve Conflicts**
+
+   > If there are conflicts, GitHub Desktop will highlight the files where conflicts exist. Open these files in a text editor, resolve the conflicts, then return to GitHub Desktop. Check the boxes next to the files you resolved, enter a commit message, then click `Commit to <branch-name>`.
+
+7. **Push Your Branch**
+
+   > Click `Repository -> Push` from the menu.
+
+8. **Create a Pull Request**
+
+   > Click `Branch -> Create Pull Request` from the menu. This will open the repository on GitHub in your browser, where you can create the pull request.
+
+9. **Review Changes**
+
+   > Ideally, you or someone else should review the changes before they're merged. They can leave comments directly on the pull request on GitHub.
+
+10. **Merge the Pull Request**
+
+    > Once you're satisfied with the changes, you can merge the pull request on GitHub. This will integrate your changes into the `main` branch.
+
+11. **Delete the Branch**
+
+    > After the pull request has been merged, you can delete the branch in GitHub Desktop by clicking `Branch -> Delete Branch`.
+
+12. **Pull the Changes**
+
+    > Click `Repository -> Pull` from the menu.
+
+13. **Start Again**
+    > For the next set of changes, go back to step 2. Always ensure you're working with the latest version of the code before creating a new branch.
