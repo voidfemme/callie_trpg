@@ -46,4 +46,3 @@ class Menu:
             # if user presses back, close status screen 
             # close the menu
 
-
